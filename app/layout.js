@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <div className="h-screen ">
           <Header />
           {children}
-          <div className="fixed w-full bottom-0 mt-36">
+          <div className="fixed w-full bottom-0 ">
             <Nav />
           </div>
         </div>
