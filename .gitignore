@@ -2,9 +2,12 @@
 
 # dependencies
 /node_modules
+.node_modules
+./node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+node_modules/@next/swc-darwin-x64/next-swc.darwin-x64.node
 
 # testing
 /coverage
