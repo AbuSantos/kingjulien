@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div>
-      <div className="p-4 h-screen overflow-y-scroll">
+      <div className="p-4 h-screen overflow-y-scroll ">
         <hr className="border-t-[.9px] mb-5 border-gray-800" />
         <p className="front-end">
           A <strong>front-end</strong> developer,{' '}
@@ -22,6 +22,7 @@ const About = () => {
           and analysing requirements using both textual and UML representations,
           developments, testing and support.
         </p>
+
         <br />
         <p className="degree">
           I hold a degree in Business Information Systems from the University of
