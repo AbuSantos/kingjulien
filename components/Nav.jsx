@@ -4,23 +4,23 @@ import { usePathname } from 'next/navigation'
 
 const Nav = () => {
   const pathName = usePathname()
-  let isActive = false
+  //   let isActive = false
 
-  if (pathName === Link) {
-    isActive = true
+  const isActive = (pathname) => {
+    return pathName === pathname ? 'text-[#28C76F]' : ''
   }
 
   return (
     <div>
       <nav className="h-24 bg-gradient-to-b from-black to-gray-900">
         <ul className=" flex items-center justify-between p-8 text-gray-400">
-          <li>
+          <li className={`${isActive('/')}`}>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className={`${isActive('/about')}`}>
             <Link href="/about">About</Link>
           </li>
-          <li>
+          <li className={`${isActive('/projects')}`}>
             <Link href="/projects">Projects</Link>
           </li>
           <li
