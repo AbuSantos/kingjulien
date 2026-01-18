@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
     <div>
-      <nav className="h-24 bg-gradient-to-b from-black to-gray-900">
+      <nav className="h-24 bg-gradient-to-b from-black to-gray-900 ">
         <ul className=" flex items-center justify-between p-8 text-gray-400">
           <li className={`${isActive('/')}`}>
             <Link href="/">Home</Link>

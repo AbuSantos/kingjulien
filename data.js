@@ -44,10 +44,10 @@ export const data = [
     index: 6,
   },
   {
-    projectName: "useReducer",
-    stack: "React,useReducer",
-    src: "https://github.com/AbuSantos/useReducer/tree/master",
-    link: "live demo",
+    projectName: "Pocketshuttle",
+    stack: "React,useReducer, GoogleMapsAPI, TailwindCSS, Nodejs,PostgreSQL,One signal",
+    src: "https://github.com/AbuSantos",
+    link: "app.pocketshuttle.com",
     index: 7,
   },
   {

@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className}  `}>
-        <div className="h-screen ">
+        <div className="h-screen pb-48">
           <Header />
           {children}
           <div className="fixed w-full bottom-0 ">

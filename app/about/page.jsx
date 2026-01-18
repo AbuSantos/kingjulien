@@ -1,35 +1,75 @@
 const About = () => {
   return (
     <div>
-      <div className="p-4 h-screen overflow-y-scroll ">
+      <div className="p-4 h-screen overflow-y-scroll">
         <hr className="border-t-[.9px] mb-5 border-gray-800" />
+
         <p className="front-end">
-          A <strong>front-end</strong> developer,{' '}
-          <strong>web3/smart contract deverloper</strong> with knowledge in{' '}
-          <strong> Javascript, React, Nextjs</strong> and Hooks,
-          <strong> CSS </strong>
-          and frameworks(SCSS, Styled Components, Tailwind), I'm also a UI
-          designer, proficient in designing user-centric applications
+          I am a <strong>Front-End Developer</strong>,{' '}
+          <strong>Full Stack Product Engineer</strong>, and{' '}
+          <strong>Web3 / Smart Contract Developer</strong> with hands-on
+          experience building scalable, production-ready web applications. I
+          specialize in
+          <strong> JavaScript, TypeScript, React, Next.js,GoogleMaps, </strong>,
+          and modern front-end development using <strong>React Hooks</strong>. I
+          work extensively with
+          <strong> CSS</strong> and styling frameworks such as
+          <strong> Tailwind CSS, SCSS, and Styled Components</strong> to build
+          fast, accessible, and user-friendly interfaces. I also have strong
+          experience in
+          <strong> UI/UX design</strong>, focusing on user-centered and
+          conversion-driven designs.
         </p>
+
         <br />
+
         <p className="analysis">
-          A competent <strong>Business Developer</strong> with a year long
-          experience delivering business critical projects and solutions for
-          several sectors on transformation programmes. Full understanding of
-          SDLC and applying both waterfall and agile (Scrum) framework and
-          practical application and knowledge of the full business analysis
-          activities in defining business needs, scopes, eliciting requirements
-          and analysing requirements using both textual and UML representations,
-          developments, testing and support.
+          Through building real-world products like{' '}
+          <strong>PocketShuttle</strong> and
+          <strong> Bullchord</strong>, I gained practical experience in{' '}
+          <strong>full-stack development</strong>,{' '}
+          <strong>real-time systems</strong>, and
+          <strong>Web3 infrastructure</strong>. At PocketShuttle, I worked on
+          real-time GPS tracking, analytics dashboards, system performance
+          optimization, and scalable backend architecture. At Bullchord, I built{' '}
+          <strong>smart contracts</strong>,
+          <strong>decentralized applications (dApps)</strong>, NFT marketplaces,
+          and token-based monetization systems using blockchain technologies,
+          strengthening my understanding of{' '}
+          <strong>
+            security, scalability, and decentralized system design
+          </strong>
+          .
         </p>
 
         <br />
-        <p className="degree">
-          I hold a degree in Business Information Systems from the University of
-          Cape Coast, Ghana.
+
+        <p className="analysis ">
+          In addition to engineering, I have experience as a{' '}
+          <strong>Business Developer</strong>
+          and <strong>Product Engineer</strong>, contributing to
+          business-critical digital transformation projects. I have a solid
+          understanding of the
+          <strong>Software Development Life Cycle (SDLC), CI/CD</strong> and hands-on
+          experience with both <strong>Agile (Scrum)</strong> and{' '}
+          <strong>Waterfall</strong> methodologies. My work includes
+          requirements analysis, product strategy, stakeholder collaboration,
+          system design, testing, deployment, and ongoing product optimization.
         </p>
 
-        <div className="about_profile">{/* <Profile /> */}</div>
+        <br />
+
+        <p className="degree mb-24">
+          I hold a <strong>B.Sc. in Business Information Systems</strong> from
+          the
+          <strong> University of Cape Coast, Ghana</strong>, which gives me a
+          strong foundation in{' '}
+          <strong>
+            software engineering, business strategy, product development, and
+            digital innovation
+          </strong>
+          .
+        </p>
       </div>
     </div>
   )
