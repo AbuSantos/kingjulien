@@ -23,12 +23,15 @@ const Nav = () => {
           <li className={`${isActive('/projects')}`}>
             <Link href="/projects">Projects</Link>
           </li>
-          <li
-            onClick={() =>
-              (window.location.href = 'https://medium.com/AbuSantos')
-            }
-          >
-            Articles
+          <li>
+            <a
+              href="https://medium.com/@abusomwansantos"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-red-500"
+            >
+              Articles
+            </a>
           </li>
         </ul>
       </nav>
