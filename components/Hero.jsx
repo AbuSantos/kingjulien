@@ -6,8 +6,10 @@ const Hero = () => {
   return (
     <div>
       <div className="mt-12 sm:mt-96">
-        <p className={`${rubik.className} text-6xl w-10/12 font-semibold`}>
-          <small className="text-[#28C76F]">I</small> Design, Build & Code
+        <p
+          className={`${rubik.className} text-6xl w-11/12 lg:w-10/12 font-semibold`}
+        >
+          <small className="text-[#28C76F]">i</small> Design, Build & Code
           Digital Products
         </p>
 
